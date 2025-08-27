@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: pihole
-          image: pihole-custom:b015a0acebe8
+          image: pihole:2025.07.01
           envFrom:
             - configMapRef:
                 name: pihole-core-settings
