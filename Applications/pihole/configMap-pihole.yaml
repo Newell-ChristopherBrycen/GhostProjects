@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap 
+metadata:
+  name: pihole-core-settings
+  namespace: pihole 
+data:
+  PIHOLE_DNS_: "1.1.1.1;9.9.9.9"
+  DNSMASQ_LISTENING: "all"
+  INTERFACE: "eth0"
+  REPLICAS: "2"
