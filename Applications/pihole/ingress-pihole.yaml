@@ -9,7 +9,7 @@ spec:
   - host: "cbc-pihole.home" 
     http:
       paths:
-      - path: /
+      - path: /(.*)
         pathType: Prefix
         backend:
           service:
