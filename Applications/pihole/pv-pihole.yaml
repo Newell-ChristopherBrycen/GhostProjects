@@ -4,6 +4,8 @@ metadata:
   name: pihole-pv 
   namespace: pihole 
 spec: 
+  hostPath:
+    path: "/mnt/data/pihole"
   claimRef:
     name: pihole-pvc
     namespace: pihole 
