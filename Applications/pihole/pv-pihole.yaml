@@ -1,0 +1,13 @@
+apiVersion:
+kind: 
+metadata:
+  name: pihole-pv 
+spec: 
+  claimRef:
+    name: pihole-pvc
+    namespace: pihole 
+  capacity:
+    storage: 2Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle 
