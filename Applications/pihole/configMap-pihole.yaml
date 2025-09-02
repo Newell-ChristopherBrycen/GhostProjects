@@ -4,6 +4,7 @@ metadata:
   name: pihole-core-settings
   namespace: pihole 
 data:
+  DNSMASQ_USER: "root"
   PIHOLE_DNS_: "1.1.1.1;9.9.9.9"
   DNSMASQ_LISTENING: "all"
   INTERFACE: "eth0"
