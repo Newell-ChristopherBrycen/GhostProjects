@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /admin/$1
 spec:
   rules:
-  - host: "cbc-pihole.home" 
+  - host: "pi.hole" 
     http:
       paths:
       - path: /(.*)
