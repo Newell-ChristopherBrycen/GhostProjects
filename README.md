@@ -6,11 +6,20 @@
 3. Raspberry Pi 5 running Ubuntu Server for K3S Node 2
 
 ## Applications
-1. ArgoCD:
-    a. Connects the GitHub Repo to the Nodes
-    b. allows for https://github.com/Newell-ChristopherBrycen/GhostProjects.git to exist as a single point of truth
-2. pihole:
-    a. serves as an Adblocker for my home environment, keeping my workstation clean and enhancing focus
-    b. // Considering moving this to Docker and building it into a standalone service for DNS and Adblock, separate from other services
-3. prometheus:
-    a. // TODO
+### ArgoCD:
+1. Connects the GitHub Repo to the Nodes \
+2. Allows for https://github.com/Newell-ChristopherBrycen/GhostProjects.git to exist as a single point of truth \
+
+### pihole:
+1. Serves as an Adblocker for my home environment, keeping my workstation clean and enhancing focus \
+2. //Notes// Considering moving this to Docker and building it into a standalone service for DNS and Adblock, separate from other services \
+
+### prometheus:
+1. provides monitoring services \
+2. //TODO// \
+
+### Joplin:
+1. notetaking app for PARA style notes \
+
+### Homepage:
+1. Favorites, from anywhere \
