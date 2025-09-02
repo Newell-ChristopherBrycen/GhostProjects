@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: pihole
+spec:
+  destination:
+    namespace: pihole
+    server: https://kubernetes.default.svc
+  source:
+    path: Applications/pihole
+    repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
+    targetRevision: HEAD
+  sources: []
+  project: ''
+  syncPolicy:
+    automated: null
+    syncOptions: []
+    retry:
+      limit: 2
+      backoff:
+        duration: 5s
+        maxDuration: 3m0s
+        factor: 2
