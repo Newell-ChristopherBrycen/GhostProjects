@@ -11,13 +11,10 @@ spec:
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
     targetRevision: HEAD
   sources: []
-  project: ''
+  project: 'homelab'
   syncPolicy:
-    automated: null
+    automated: 
+      prune: true 
+      selfHeal: true
     syncOptions: []
-    retry:
-      limit: 2
-      backoff:
-        duration: 5s
-        maxDuration: 3m0s
-        factor: 2
+      - CreateNamespace=true
