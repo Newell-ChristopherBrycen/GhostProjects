@@ -15,7 +15,16 @@ data:
     - Developer:
         - Github:
             - abbr: GH
-              href: https://github.com/
+              href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
+    - Social:
+        - Reddit:
+            - icon: reddit.png
+              href: https://reddit.com/
+              description: The front page of the internet
+    - Entertainment:
+        - YouTube:
+            - abbr: YT
+              href: https://youtube.com/
   services.yaml: |
     - My First Group:
         - My First Service:
@@ -32,6 +41,15 @@ data:
             href: http://localhost/
             description: Homepage is 😎
   widgets.yaml: |
+    - logo:
+        href: https://example.com
+        target: _blank
+    - widget:
+        type: pihole
+        url: http://pihole.cbc
+        version: 6
+        #TODO
+        key: piholeapikeyhere 
     - kubernetes:
         cluster:
           show: true
@@ -44,13 +62,9 @@ data:
           cpu: true
           memory: true
           showLabel: true
-    - resources:
-        backend: resources
-        expanded: true
-        cpu: true
-        memory: true
-        network: default
     - search:
         provider: duckduckgo
+        focus: true
         target: _blank
+        showSearchSuggestions: true
   docker.yaml: ""
