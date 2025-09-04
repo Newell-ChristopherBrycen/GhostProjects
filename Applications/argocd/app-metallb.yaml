@@ -4,7 +4,7 @@ metadata:
   name: metallb
   namespace: argocd
 spec:
-  project: homelab
+  project: 'homelab'
   source:
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
     path: Applications/metallb/metallb 
