@@ -3,15 +3,14 @@ kind: Application
 metadata:
   name: homepage
 spec:
-  destination:
-    namespace: homepage
-    server: https://kubernetes.default.svc
+  project: 'homelab'
   source:
     path: Applications/homepage
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
     targetRevision: HEAD
-  sources: []
-  project: 'homelab'
+  destination:
+    namespace: homepage
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated: 
       prune: true
