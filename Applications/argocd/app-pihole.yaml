@@ -5,13 +5,13 @@ metadata:
   namespace: argocd
 spec:
   project: 'homelab'
-  destination:
-    namespace: pihole
-    server: https://kubernetes.default.svc
   source:
     path: Applications/pihole
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
     targetRevision: HEAD
+  destination:
+    namespace: pihole
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated: 
       prune: true
