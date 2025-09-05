@@ -1,17 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: metallb
+  name: ingress-nginx
   namespace: argocd
 spec:
   project: 'homelab'
   source:
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
-    path: Applications/metallb
+    path: Applications/ingress
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: metallb-system
+    namespace: ingress-nginx
   syncPolicy:
     automated:
       selfHeal: true

@@ -69,8 +69,7 @@ metadata:
   name: pihole-admin-service
   namespace: pihole 
 spec:
-  type: LoadBalancer
-  clusterIP: 10.43.3.34
+  type: ClusterIP
   selector:
     app: pihole 
   ports:
