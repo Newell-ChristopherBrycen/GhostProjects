@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: pihole
+  namespace: argocd
 spec:
   destination:
     namespace: pihole
@@ -10,7 +11,6 @@ spec:
     path: Applications/pihole
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
     targetRevision: HEAD
-  sources: []
   project: 'homelab'
   syncPolicy:
     automated: 
