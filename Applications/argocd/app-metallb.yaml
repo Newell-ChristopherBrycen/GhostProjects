@@ -7,7 +7,7 @@ spec:
   project: 'homelab'
   source:
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
-    path: Applications/metallb/metallb 
+    path: Applications/metallb
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
