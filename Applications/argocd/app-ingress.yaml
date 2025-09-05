@@ -4,7 +4,7 @@ metadata:
   name: ingress-nginx
   namespace: argocd
 spec:
-  project: default
+  project: 'homelab'
   source:
     repoURL: https://github.com/Newell-ChristopherBrycen/GhostProjects.git
     path: Applications/ingress
