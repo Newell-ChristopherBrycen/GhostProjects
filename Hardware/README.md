@@ -14,6 +14,8 @@
 3. kubectl
 4. metallb
 5. helm
+6. ArgoDB helm install
+7. Prom helm install
    
 ### Banshee Setup -
 1. OpenWRT
