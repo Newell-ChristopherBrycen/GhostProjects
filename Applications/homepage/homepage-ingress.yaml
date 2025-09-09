@@ -15,7 +15,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: homepage.cbc
+    - host: homepage.cbc.io
       http:
         paths:
           - path: "/"
