@@ -37,8 +37,13 @@ data:
             icon: reddit.png
             href: https://reddit.com/
         - YouTube:
-            logo: youtube.png
+            icon: youtube.png
             href: https://youtube.com/
+    - Utility:
+        - Gemini:
+            href: https://gemini.google.com/
+        - Gmail:
+            href: https://gmail.com/
   widgets.yaml: |
     - logo:
         href: https://reddit.com
