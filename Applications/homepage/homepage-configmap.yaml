@@ -32,6 +32,12 @@ data:
         - GhostPath:
             href: http://ghost.cbc.io/
             description: GL-B3000 Routing
+    - Entertainment:
+        - Reddit:
+          - icon: reddit.png
+            href: https://reddit.com/
+        - YouTube:
+          - href: https://youtube.com/
   widgets.yaml: |
     - logo:
         href: https://reddit.com
