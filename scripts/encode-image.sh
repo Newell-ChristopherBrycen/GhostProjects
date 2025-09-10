@@ -13,16 +13,18 @@ data:" > Applications/homepage/homepage-pictures.yaml
 
 for file in Content/Backgrounds/*
 do
-  filename=$(basename "$file")
-  filename_no_ext=${filename%.*}
-  file64=$(base64 $file)
-  echo "  $filename_no_ext: $file64" >> Applications/homepage/homepage-pictures.yaml
+  filename_ext=$(basename "$file")
+  filename=${filename_ext%.*}
+  file64=$(base64 "$file" | sed 's/^/    /')
+  echo "  $filename: |" >> Applications/homepage/homepage-pictures.yaml
+  echo "$file64"  >> Applications/homepage/homepage-pictures.yaml
 done
 
 for file in Content/icons/*
 do
-  filename=$(basename "$file")
-  filename_no_ext=${filename%.*}
-  file64=$(base64 $file)
-  echo "  $filename_no_ext: $file64" >> Applications/homepage/homepage-pictures.yaml
+  filename_ext=$(basename "$file")
+  filename=${filename_ext%.*}
+  file64=$(base64 "$file" | sed 's/^/    /')
+  echo "  $filename: |" >> Applications/homepage/homepage-pictures.yaml
+  echo "$file64"  >> Applications/homepage/homepage-pictures.yaml
 done
