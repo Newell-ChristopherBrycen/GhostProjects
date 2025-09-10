@@ -32,6 +32,9 @@ data:
         - GhostPath:
             href: http://ghost.cbc.io/
             description: GL-B3000 Routing
+        - AdGuard:
+            href: http://ghost.cbc.io:3000/
+            description: Ad blocker and more 
     - Entertainment:
         - Reddit:
             icon: reddit.png
@@ -39,11 +42,9 @@ data:
         - YouTube:
             icon: youtube.png
             href: https://youtube.com/
-    - Utility:
-        - Gemini:
-            href: https://gemini.google.com/
-        - Gmail:
-            href: https://gmail.com/
+        - Amazon:
+            icon: amazon.png 
+            href: https://amazon.com 
   widgets.yaml: |
     - logo:
         href: https://reddit.com
