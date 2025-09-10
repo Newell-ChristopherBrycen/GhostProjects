@@ -60,9 +60,14 @@ spec:
               subPath: widgets.yaml
             - mountPath: /app/config/logs
               name: logs
+            - mountPath: /Content
+              name: homepage-pictures
       volumes:
         - name: homepage-config
           configMap:
             name: homepage
         - name: logs
           emptyDir: {}
+        - name: pictures
+          configMap:
+            name: pictures
