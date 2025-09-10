@@ -48,4 +48,11 @@ data:
         focus: true
         target: _blank
         showSearchSuggestions: true
+    - datetime:
+        text_size: x1
+        format:
+          timeZone: "America/Chicago"
+          timeStyle: short
+          dateStyle: long
+          hourCycle: h23
   docker.yaml: ""
