@@ -70,4 +70,4 @@ spec:
           emptyDir: {}
         - name: pictures
           configMap:
-            name: homepage-pictures
+            name: pictures
