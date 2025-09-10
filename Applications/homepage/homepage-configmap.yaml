@@ -26,30 +26,21 @@ data:
             - abbr: YT
               href: https://youtube.com/
   services.yaml: |
-    - My First Group:
-        - My First Service:
-            href: http://localhost/
-            description: Homepage is awesome
+    - My HomeLab:
+        - ArgoCD
+            href: http://argocd.cbc.io 
+            description: Git Repo
+        - GhostPath
+            href: http://ghost.cbc.io 
+            description: GL-B3000 Routing
+        - AdGuard
+            href: http://ghost.cbc.io:3000
+            description: Ad blocker and more 
 
-    - My Second Group:
-        - My Second Service:
-            href: http://localhost/
-            description: Homepage is the best
-
-    - My Third Group:
-        - My Third Service:
-            href: http://localhost/
-            description: Homepage is 😎
   widgets.yaml: |
     - logo:
         href: https://example.com
         target: _blank
-    - widget:
-        type: pihole
-        url: http://pihole.cbc
-        version: 6
-        #TODO
-        key: piholeapikeyhere 
     - kubernetes:
         cluster:
           show: true
