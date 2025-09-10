@@ -9,7 +9,7 @@ data:
   kubernetes.yaml: |
     mode: cluster
   settings.yaml: |
-    background: https://github.com/Newell-ChristopherBrycen/GhostProjects/blob/main/Content/Backgrounds/greenminimal.jpg
+    background: /app/conent/greenminimal
     layout:
       - HomeLab:
           style: row
@@ -40,7 +40,7 @@ data:
             href: https://amazon.com 
   widgets.yaml: |
     - logo:
-        icon: /Content/
+        icon: /app/content/small-ghost
         href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
         target: _blank
     - search:
