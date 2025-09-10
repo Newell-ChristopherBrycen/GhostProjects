@@ -30,9 +30,11 @@ data:
         - ArgoCD:
             href: http://argocd.cbc.io/
             description: Git Repo
+    - HomeLab:
         - GhostPath:
             href: http://ghost.cbc.io/
             description: GL-B3000 Routing
+    - HomeLab:
         - AdGuard:
             href: http://ghost.cbc.io:3000/
             description: Ad blocker and more 
@@ -41,13 +43,15 @@ data:
           - icon: reddit.png
             href: https://reddit.com/
             description: FrontPage of the internet
+    - Entertainment 2: 
         - YouTube:
           - icon: youtube.png 
             href: https://youtube.com/
-    - Utility:
+    - Utility 1:
         - Gemini:
           - icon: Gemini.png 
             href: https://gemini.google.com/
+    - Utility 2:
         - Gmail:
           - icon: gmail.png 
             href: https://gmail.com/
