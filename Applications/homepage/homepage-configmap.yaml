@@ -13,7 +13,7 @@ data:
     layout:
       - HomeLab:
           style: row
-          columns: 3
+          columns: 4
     headerStyle: underlined
   custom.css: ""
   custom.js: ""
@@ -26,6 +26,8 @@ data:
             href: http://ghost.cbc.io/
         - AdGuard:
             href: http://ghost.cbc.io:3000/
+        - GitHub:
+            href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
     - Entertainment:
         - Reddit:
             icon: reddit.png
@@ -38,6 +40,7 @@ data:
             href: https://amazon.com 
   widgets.yaml: |
     - logo:
+        icon: Content/icons/small-ghost.png
         href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
         target: _blank
     - search:
