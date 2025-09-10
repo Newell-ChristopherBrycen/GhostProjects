@@ -11,9 +11,10 @@ data:
   settings.yaml: |
     background: https://github.com/Newell-ChristopherBrycen/GhostProjects/blob/main/Content/Backgrounds/greenminimal.jpg
     layout:
-      HomeLab:
-        style: row
-        columns: 3
+      - HomeLab:
+          style: row
+          columns: 3
+    headerStyle: underlined
   custom.css: ""
   custom.js: ""
   bookmarks.yaml: ""
@@ -21,14 +22,10 @@ data:
     - HomeLab:
         - ArgoCD:
             href: http://argocd.cbc.io/
-            description: CD Pipeline
-            icon: argocd.png 
         - GhostPath:
             href: http://ghost.cbc.io/
-            description: GL-B3000 Routing
         - AdGuard:
             href: http://ghost.cbc.io:3000/
-            description: Ad blocker and more 
     - Entertainment:
         - Reddit:
             icon: reddit.png
@@ -41,7 +38,7 @@ data:
             href: https://amazon.com 
   widgets.yaml: |
     - logo:
-        href: https://reddit.com
+        href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
         target: _blank
     - search:
         provider: duckduckgo
@@ -56,4 +53,13 @@ data:
           year: numeric
           day: 2-digit
           hour12: false
+    - openmeteo:
+        label: OKC
+        latitude: 35.4689
+        longitude: -97.5195
+        timezone: America/Chicago
+        units: imperial
+        cache: 5
+        format:
+          maximumFractionDigits: 2
   docker.yaml: ""
