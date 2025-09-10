@@ -34,10 +34,11 @@ data:
             description: GL-B3000 Routing
     - Entertainment:
         - Reddit:
-          - icon: reddit.png
+            icon: reddit.png
             href: https://reddit.com/
         - YouTube:
-          - href: https://youtube.com/
+            logo: youtube.png
+            href: https://youtube.com/
   widgets.yaml: |
     - logo:
         href: https://reddit.com
