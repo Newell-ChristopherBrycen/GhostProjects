@@ -29,6 +29,9 @@ data:
         - ArgoCD:
             href: http://argocd.cbc.io/
             description: CD Pipeline
+        - GhostPath:
+            href: http://ghost.cbc.io/
+            description: GL-B3000 Routing
   widgets.yaml: |
     - logo:
         href: https://reddit.com
