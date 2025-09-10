@@ -52,7 +52,6 @@ data:
         text_size: x1
         format:
           timeZone: "America/Chicago"
-          timeStyle: short
           month: short 
           year: numeric
           day: 2-digit
