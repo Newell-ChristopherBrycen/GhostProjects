@@ -8,7 +8,6 @@ metadata:
 data:
   kubernetes.yaml: |
     mode: cluster
-    ingress: true
   settings.yaml: ""
   custom.css: ""
   custom.js: ""
@@ -30,24 +29,6 @@ data:
         - ArgoCD:
             href: http://argocd.cbc.io/
             description: CD Pipeline
-        - GhostPath:
-            href: http://ghost.cbc.io/
-            description: GL-B3000 Routing
-        - AdGuard:
-            href: http://ghost.cbc.io:3000/
-            description: Ad blocker and more 
-    - Entertainment:
-        - Reddit:
-          - icon: reddit.png
-            href: https://reddit.com/
-        - YouTube:
-          - href: https://youtube.com/
-    - Utility:
-        - Gemini:
-          - href: https://gemini.google.com/
-        - Gmail:
-          - href: https://gmail.com/
-        - 
   widgets.yaml: |
     - logo:
         href: https://reddit.com
