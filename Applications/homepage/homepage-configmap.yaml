@@ -26,7 +26,7 @@ data:
             - abbr: YT
               href: https://youtube.com/
   services.yaml: |
-    - My HomeLab:
+    - HomeLab:
         - ArgoCD:
             href: http://argocd.cbc.io/
             description: Git Repo
@@ -36,11 +36,31 @@ data:
         - AdGuard:
             href: http://ghost.cbc.io:3000/
             description: Ad blocker and more 
-
+    - Entertainment:
+        - Reddit:
+          - icon: reddit.png
+            href: https://reddit.com/
+            description: FrontPage of the internet
+        - YouTube:
+          - icon: youtube.png 
+            href: https://youtube.com/
+    - Utility:
+        - Gemini:
+          - icon: Gemini.png 
+            href: https://gemini.google.com/
+        - Gmail:
+          - icon: gmail.png 
+            href: https://gmail.com/
+        - 
   widgets.yaml: |
     - logo:
         href: https://example.com
         target: _blank
+    - search:
+        provider: duckduckgo
+        focus: true
+        target: _blank
+        showSearchSuggestions: true
     - kubernetes:
         cluster:
           show: true
@@ -53,9 +73,4 @@ data:
           cpu: true
           memory: true
           showLabel: true
-    - search:
-        provider: duckduckgo
-        focus: true
-        target: _blank
-        showSearchSuggestions: true
   docker.yaml: ""
