@@ -40,7 +40,7 @@ data:
             href: https://amazon.com 
   widgets.yaml: |
     - logo:
-        icon: /app/content/small-ghost
+        icon: /app/content/data/small-ghost
         href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
         target: _blank
     - search:
