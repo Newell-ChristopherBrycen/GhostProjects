@@ -28,13 +28,13 @@ data:
   services.yaml: |
     - My HomeLab:
         - ArgoCD
-            href: http://argocd.cbc.io 
+            href: http://argocd.cbc.io/
             description: Git Repo
         - GhostPath
-            href: http://ghost.cbc.io 
+            href: http://ghost.cbc.io/
             description: GL-B3000 Routing
         - AdGuard
-            href: http://ghost.cbc.io:3000
+            href: http://ghost.cbc.io:3000/
             description: Ad blocker and more 
 
   widgets.yaml: |
