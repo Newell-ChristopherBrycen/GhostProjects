@@ -62,6 +62,7 @@ spec:
               name: logs
             - mountPath: /Content
               name: homepage-pictures
+              subPath: homepage-pictures.yaml
       volumes:
         - name: homepage-config
           configMap:
