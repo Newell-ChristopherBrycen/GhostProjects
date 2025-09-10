@@ -65,16 +65,4 @@ data:
         focus: true
         target: _blank
         showSearchSuggestions: true
-    - kubernetes:
-        cluster:
-          show: true
-          cpu: true
-          memory: true
-          showLabel: true
-          label: "cluster"
-        nodes:
-          show: true
-          cpu: true
-          memory: true
-          showLabel: true
   docker.yaml: ""
