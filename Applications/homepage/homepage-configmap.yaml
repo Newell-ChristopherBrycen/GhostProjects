@@ -7,28 +7,17 @@ metadata:
     app.kubernetes.io/name: homepage
 data:
   kubernetes.yaml: |
-    mode: cluster
+    mode: default
   settings.yaml: ""
   custom.css: ""
   custom.js: ""
-  bookmarks.yaml: |
-    - Developer:
-        - Github:
-            - abbr: GH
-              href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
-    - Social:
-        - Reddit:
-            - icon: reddit.png
-              href: https://reddit.com/
-    - Entertainment:
-        - YouTube:
-            - abbr: YT
-              href: https://youtube.com/
+  bookmarks.yaml: ""
   services.yaml: |
     - HomeLab:
         - ArgoCD:
             href: http://argocd.cbc.io/
             description: CD Pipeline
+            icon: argocd.png 
         - GhostPath:
             href: http://ghost.cbc.io/
             description: GL-B3000 Routing
