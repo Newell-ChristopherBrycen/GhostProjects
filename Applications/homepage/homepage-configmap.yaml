@@ -27,13 +27,13 @@ data:
               href: https://youtube.com/
   services.yaml: |
     - My HomeLab:
-        - ArgoCD
+        - ArgoCD:
             href: http://argocd.cbc.io/
             description: Git Repo
-        - GhostPath
+        - GhostPath:
             href: http://ghost.cbc.io/
             description: GL-B3000 Routing
-        - AdGuard
+        - AdGuard:
             href: http://ghost.cbc.io:3000/
             description: Ad blocker and more 
 
