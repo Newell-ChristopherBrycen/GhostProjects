@@ -9,7 +9,7 @@ data:
   kubernetes.yaml: |
     mode: cluster
   settings.yaml: |
-    background: ../../Content/Backgrounds/greenminimal.jpg
+    background: https://github.com/Newell-ChristopherBrycen/GhostProjects/blob/main/Content/Backgrounds/greenminimal.jpg
     layout:
       HomeLab:
         style: row
@@ -53,6 +53,8 @@ data:
         format:
           timeZone: "America/Chicago"
           timeStyle: short
-          dateStyle: short
+          month: short 
+          year: numeric
+          day: 2-digit
           hour12: false
   docker.yaml: ""
