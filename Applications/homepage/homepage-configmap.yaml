@@ -54,7 +54,7 @@ data:
         - 
   widgets.yaml: |
     - logo:
-        href: https://example.com
+        href: https://github.com/Newell-ChristopherBrycen/GhostProjects/
         target: _blank
     - search:
         provider: duckduckgo
