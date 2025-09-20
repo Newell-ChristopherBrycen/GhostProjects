@@ -1,3 +1,11 @@
+# add resources
 k create namespace my-grafana
+k apply -f grafana.yaml -n my-grafana
 
-k apply -f grafana.yaml
+# verify deployment status
+k get pvc -n my-grafana -o wide
+k get depl -n my-grafana -o wide
+k get svc -n my-grafana -o wide
+
+# -- note -- 
+# metallb should auto provide an external-ip, but perhaps moving this to a clusterIP and utilizing nginx ingress controller and an ingress object may be more convenient
